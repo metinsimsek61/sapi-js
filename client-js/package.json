@@ -1,0 +1,17 @@
+{
+  "name": "sapi-client",
+  "version": "0.0.1",
+  "description": "sapi-client.js A npm package which can connect simsek web services",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "smsk",
+    "mtnsmsk",
+    "api"
+  ],
+  "author": "mtnsmsk",
+  "license": "MIT"
+}
