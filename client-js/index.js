@@ -17,6 +17,7 @@
 * Lastest Change: Added makale.ga api support. (You can see version logs at the down of this file)
 */
 const fetch = require('node-fetch');
+const captureWebsite = require('capture-website');
 const { log } = require("console");
 module.exports = function (endpoint, apikey) {
     var module = {};
@@ -73,8 +74,12 @@ module.exports = function (endpoint, apikey) {
 * Version Logs;
 * You can find these logs at changelog.md
 * -----------------------
-* 0.0.1_beta - 2020/09/13
+* 0.0.1_beta - 2020/09/12
 * -----------------------
 * Added authorization api support
 * ———————————————————————
+* -----------------------
+* 0.0.1_beta - 2020/09/13
+* -----------------------
+* Added makale.ga api support
 */
