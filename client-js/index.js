@@ -56,18 +56,6 @@ module.exports = function (endpoint, apikey) {
                 log(json)
             });
     };
-    module.generatetoken = function () {
-        const body = { api: apikey };
-        fetch(endpoint + "generate/token", {
-            method: 'post',
-            body: JSON.stringify(body),
-            headers: { 'Content-Type': 'application/json' },
-        })
-        .then(res => res.json())
-        .then(json => {
-            log(json)
-        });
-    };
     return module;
 };
 /*
@@ -79,7 +67,7 @@ module.exports = function (endpoint, apikey) {
 * Added authorization api support
 * ———————————————————————
 * -----------------------
-* 0.0.1_beta - 2020/09/13
+* 0.0.2_beta - 2020/09/13
 * -----------------------
-* Added makale.ga api support
+* Fixed Some Bugs
 */

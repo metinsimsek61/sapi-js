@@ -13,5 +13,16 @@
     "api"
   ],
   "author": "mtnsmsk",
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metinsimsek61/sapi-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/metinsimsek61/sapi-js/issues"
+  },
+  "homepage": "https://github.com/metinsimsek61/sapi-js#readme"
 }
