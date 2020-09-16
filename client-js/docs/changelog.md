@@ -41,7 +41,7 @@ Fixed Authorization API Support, Added Website crawler
 
 ***
 
-> ## 0.0.3_beta - 2020-09-13
+> ## 0.0.3_beta - 2020-09-14
 
 Added Classes To Use (In Test Progress)
 
