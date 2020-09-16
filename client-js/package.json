@@ -4,8 +4,8 @@
   "description": "sapi-client.js A npm package which can connect simsek web services",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
+    "start": "node example.js",
+    "test": "node example.js"
   },
   "keywords": [
     "smsk",
@@ -24,5 +24,9 @@
   "bugs": {
     "url": "https://github.com/metinsimsek61/sapi-js/issues"
   },
-  "homepage": "https://github.com/metinsimsek61/sapi-js#readme"
+  "homepage": "https://github.com/metinsimsek61/sapi-js#readme",
+  "dependencies": {
+    "capture-website": "^1.2.1",
+    "node-fetch": "^2.6.1"
+  }
 }
